@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Medium.eot");
+  src: url("fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"),
+      url("fonts/Poppins-Medium.woff2") format("woff2"), url("fonts/Poppins-Medium.woff") format("woff"),
+      url("fonts/Poppins-Medium.ttf") format("truetype"), url("fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+::-webkit-scrollbar {
+  width: 2px;
+  /* background-color: #0d151b; */
+  background: linear-gradient(90deg, #1b121d 0, #120f2f 50%, #1b121d 100%);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 30px;
+  border:  1px solid #96969b55;
+  
+  height: 10px;
+}
+
+body{
+  font-family:  "Poppins" ;
+  background-color: #1b121d;
+  background: linear-gradient(90deg, #1b121d 0, #120f2f 50%, #1b121d 100%);
+  /* background: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%); */
+font-weight: 100  !important;
+}
+.navbar_tab{
+  border:  1px solid #96969b55;
+  padding: 20px 20px;
+  /* background: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%); */
+  backdrop-filter: blur(5px);
+   border-radius: 20px;
+   margin-bottom: 60px;
+}
+ul{
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+}
+button{
+background: transparent;
+  padding: 5px 30px;
+  margin-right: 30px;
+  border-radius: 18px;
+  color: aliceblue;
+  /* box-shadow: 0 0px 1px 1px inset rgba(187, 187, 187, 0.5), 0 0px 1px 1px rgb(187, 187, 187); */
+  border:  1px solid #96969b55;
+letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+button:hover{
+  background-color: #120f2fd0;
+  cursor: pointer;
+  color: brown;
+  font-weight: bold;
+  border-color: brown;
+  /* box-shadow: 0 0 5px 3px inset rgba(187, 187, 187, 1); */
+}
+button:focus{
+  outline: none;
+  border-color: brown;
+  color: brown;
+}
+
+.box {
+  background-color: red;
+  color: black;
+  border: 5px solid blue;
+}
+.box_right{
+  float: right;
+}
+.search{
+ 
+  border-radius: 25px;
+  background-color: #120f2f34;
+  backdrop-filter: blur(5px);
+  padding: 5px 15px;
+  border: inherit;
+  border:  1px solid #96969b55;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+ 
+}
+.search:focus{
+  outline: none;
+}
